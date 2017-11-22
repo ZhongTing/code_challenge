@@ -13,3 +13,8 @@ columns: (user：顧客／會員編號, item：商品編號, qty：交易量, da
 (a) 建模預測顧客購買行為（顧客-> List[商品]）  
 (b) 自行split dataset：5-Fold CV + testSet，實現驗證方式。  
 (c) 以AUC呈現驗證結果。
+
+## 任務需求3 : 通用作者資訊爬蟲
+設計一個通用型的作者資訊爬蟲  
+input : 200 urls (may include noise)  
+output : 對應url的作者名字(如果url不是文章就回傳None)
